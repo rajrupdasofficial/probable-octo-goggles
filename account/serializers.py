@@ -17,3 +17,7 @@ class UserLSerializer(serializers.HyperlinkedModelSerializer):
         fields = ['email','password']
 
 
+class ProfileSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = User
+        fields =['id','email','name']
