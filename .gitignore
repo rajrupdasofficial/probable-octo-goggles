@@ -267,7 +267,7 @@ poetry.toml
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
+curl_master.txt
 # Local History for Visual Studio Code
 .history/
 
