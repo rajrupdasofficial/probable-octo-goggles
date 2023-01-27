@@ -183,3 +183,13 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://localhost:8000"
 ]
+
+PASSWORD_RESET_TIME_OUT=900 #in seconds
+#email config
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USER = config('EMAIL')
+EMAIL_PASSWORD = config('PASSWORD')
+EMAIL_FROM = config('EMAIL')
