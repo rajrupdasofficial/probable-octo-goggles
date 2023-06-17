@@ -1,7 +1,7 @@
 asgiref==3.6.0
 cffi==1.15.1
-cryptography==41.0.0
-Django==4.1.7
+cryptography==39.0.1
+Django==4.1.9
 django-cors-headers==3.13.0
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.2
